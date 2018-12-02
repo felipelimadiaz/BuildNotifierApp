@@ -69,6 +69,7 @@ public class RepoImpl implements Repo {
                 this.repoImplParent.notifyObserver();
             }
             catch(Exception e){
+                int x = 3;
 
             }
 

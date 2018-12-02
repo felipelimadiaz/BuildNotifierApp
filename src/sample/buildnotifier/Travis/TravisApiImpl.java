@@ -9,6 +9,7 @@ import com.google.gson.GsonBuilder;
 
 
 public class TravisApiImpl implements TravisApi {
+
     private String sendGet(String url) throws Exception{
 
         URL httpURL = new URL(url);
