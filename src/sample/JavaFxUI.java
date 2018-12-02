@@ -13,7 +13,8 @@ public class JavaFxUI extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("GUI.fxml"));
         primaryStage.setTitle("Build Status");
-        primaryStage.setScene(new Scene(root, 200, 500));
+        primaryStage.setScene(new Scene(root, 280, 350));
+        primaryStage.setResizable(false);
         primaryStage.show();
 
     }

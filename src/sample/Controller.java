@@ -1,9 +1,8 @@
 package sample;
 
 import javafx.fxml.FXML;
-import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.*;
 import javafx.scene.control.Label;
-import javafx.scene.layout.VBox;
 import sample.buildnotifier.Build;
 import sample.buildnotifier.Observer;
 import sample.buildnotifier.Repo;
@@ -24,6 +23,7 @@ public class Controller implements Observer {
         RepoFactory repoFactory = new RepoFactoryImpl();
         this.repo = repoFactory.getRepo();
         repo.addObserver(this);
+        this.vBox.setStyle("-fx-border-color: black;" + "-fx-border-style: solid;" + "-fx-border-width: 1");
 
         for (Build build : repo.getBuilds()) {
             Label label = new Label(build.getState());
@@ -39,6 +39,8 @@ public class Controller implements Observer {
 
         for (Build build : builds){
             Label label = new Label(build.getState());
+            label.setMaxWidth(250);
+            label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid none none solid;" + "-fx-border-width: 1");
             this.vBox2.getChildren().add(label);
         }
 
