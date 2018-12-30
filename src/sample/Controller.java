@@ -27,6 +27,8 @@ public class Controller implements Observer {
         this.vBox.setStyle("-fx-border-color: black;" + "-fx-border-style: solid;" + "-fx-border-width: 1");
         this.vBox.prefWidthProperty().bind(this.pane.widthProperty().multiply(1));
         this.vBox.prefHeightProperty().bind(this.pane.heightProperty().multiply(1));
+        this.vBox2.prefWidthProperty().bind(this.vBox.widthProperty().multiply(1));
+        this.vBox2.prefHeightProperty().bind(this.vBox.heightProperty().multiply(1));
 
         for (Build build : repo.getBuilds()) {
             Label label = new Label(build.getState());
@@ -39,14 +41,12 @@ public class Controller implements Observer {
     public void update() throws Exception {
         List<Build> builds = repo.getBuilds();
         this.vBox2.getChildren().clear();
-        this.vBox2.prefWidthProperty().bind(this.vBox.widthProperty().multiply(1));
-        this.vBox2.prefHeightProperty().bind(this.vBox.heightProperty().multiply(1));
 
         for (Build build : builds){
             Label label = new Label(build.getState());
+            label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid none none solid;" + "-fx-border-width: 1");
             label.prefWidthProperty().bind(this.vBox2.widthProperty().multiply(1));
             label.prefHeightProperty().bind(this.vBox2.heightProperty().multiply(1));
-            label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid none none solid;" + "-fx-border-width: 1");
             this.vBox2.getChildren().add(label);
         }
 
