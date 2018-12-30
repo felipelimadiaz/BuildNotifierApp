@@ -9,13 +9,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<ScrollPane prefHeight="350.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<ScrollPane fx:id="scrollPane" prefHeight="350.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <content>
-      <AnchorPane prefHeight="336.0" prefWidth="279.0">
+      <AnchorPane fx:id="pane" prefHeight="336.0" prefWidth="279.0">
          <children>
-            <VBox fx:id="vBox" layoutY="2.0" prefHeight="229.0" prefWidth="233.0">
+            <VBox fx:id="vBox" layoutY="2.0">
                <padding>
-                  <Insets left="10.0" />
+                  <Insets left="5.0" />
                </padding>
                <children>
                   <Label prefHeight="20.0" prefWidth="89.0" text="Build Status:">
@@ -25,12 +25,12 @@
                      <VBox.margin>
                         <Insets bottom="4.0" top="4.0" />
                      </VBox.margin></Label>
-                  <VBox fx:id="vBox2" maxWidth="223.0" prefHeight="198.0" prefWidth="223.0" VBox.vgrow="ALWAYS">
+                  <VBox fx:id="vBox2" VBox.vgrow="ALWAYS">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
                      <padding>
-                        <Insets left="10.0" />
+                        <Insets left="5.0" />
                      </padding>
                      <VBox.margin>
                         <Insets top="3.0" />
