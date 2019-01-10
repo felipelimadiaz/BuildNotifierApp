@@ -3,6 +3,7 @@ package sample;
 import javafx.fxml.FXML;
 import javafx.scene.layout.*;
 import javafx.scene.control.Label;
+import javafx.scene.paint.Color;
 import sample.buildnotifier.Build;
 import sample.buildnotifier.Observer;
 import sample.buildnotifier.Repo;
@@ -47,8 +48,24 @@ public class Controller implements Observer {
             label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid none none solid;" + "-fx-border-width: 1");
             label.prefWidthProperty().bind(this.vBox2.widthProperty().multiply(1));
             label.prefHeightProperty().bind(this.vBox2.heightProperty().multiply(1));
+            label = this.setColor(label);
             this.vBox2.getChildren().add(label);
         }
 
+    }
+
+    private Label setColor(Label label){
+        if (label.getText().equals("passed")){
+            label.setTextFill(Color.web("#228B22"));
+        }
+        else if (label.getText().equals("canceled")){
+            label.setTextFill(Color.web("#FF0000"));
+        }
+        else{
+            label.setTextFill(Color.web("#ffa500"));
+        }
+
+
+        return label;
     }
 }
