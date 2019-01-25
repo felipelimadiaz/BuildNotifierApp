@@ -12,6 +12,7 @@ import java.util.List;
 public class RepoImpl implements Repo {
     RepoDataService repoDataService;
     ArrayList<Build> listBuilds = new ArrayList<Build>();
+    List<Build> subListBuilds = new ArrayList<>();
     ArrayList<Observer> listObservers = new ArrayList<Observer>();
 
 
@@ -26,7 +27,7 @@ public class RepoImpl implements Repo {
 
     @Override
     public List<Build> getBuilds() throws Exception {
-        return listBuilds;
+        return subListBuilds;
 
     }
 
@@ -66,11 +67,11 @@ public class RepoImpl implements Repo {
                     listBuilds.add(build);
                 }
 
+                subListBuilds = listBuilds.subList(0,10);
                 this.repoImplParent.notifyObserver();
             }
             catch(Exception e){
                 int x = 3;
-
             }
 
         }

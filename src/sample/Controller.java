@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.*;
 import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
@@ -20,14 +21,16 @@ public class Controller implements Observer {
     private VBox vBox2;
     @FXML
     private AnchorPane pane;
+    @FXML
+    private ScrollPane scrollPane;
 
     public void initialize() throws Exception {
         RepoFactory repoFactory = new RepoFactoryImpl();
         this.repo = repoFactory.getRepo();
         repo.addObserver(this);
-        this.vBox.setStyle("-fx-border-color: black;" + "-fx-border-style: solid;" + "-fx-border-width: 1");
         this.vBox.prefWidthProperty().bind(this.pane.widthProperty().multiply(1));
         this.vBox.prefHeightProperty().bind(this.pane.heightProperty().multiply(1));
+        this.vBox.setStyle("-fx-border-color: black;" + "-fx-border-style: solid;" + "-fx-border-width: 1;" + "-fx-background-color: rgb(225, 228, 203);");
         this.vBox2.prefWidthProperty().bind(this.vBox.widthProperty().multiply(1));
         this.vBox2.prefHeightProperty().bind(this.vBox.heightProperty().multiply(1));
 
@@ -35,7 +38,6 @@ public class Controller implements Observer {
             Label label = new Label(build.getState());
             this.vBox2.getChildren().add(label);
         }
-
     }
 
     @Override
@@ -45,7 +47,7 @@ public class Controller implements Observer {
 
         for (Build build : builds){
             Label label = new Label(build.getState());
-            label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid none none solid;" + "-fx-border-width: 1");
+            label.setStyle("-fx-border-color: black;" + "-fx-border-style: solid solid none solid;" + "-fx-border-width: 1");
             label.prefWidthProperty().bind(this.vBox2.widthProperty().multiply(1));
             label.prefHeightProperty().bind(this.vBox2.heightProperty().multiply(1));
             label = this.setColor(label);
