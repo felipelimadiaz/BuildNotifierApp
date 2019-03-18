@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.cdancy.jenkins-rest.main">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/generated" />
+    </SOURCES>
+  </library>
+</component>

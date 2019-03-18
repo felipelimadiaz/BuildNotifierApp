@@ -9,6 +9,7 @@ import sample.buildnotifier.Repo;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class RepoImpl implements Repo {
     RepoDataService repoDataService;
     ArrayList<Build> listBuilds = new ArrayList<Build>();
