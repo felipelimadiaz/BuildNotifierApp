@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_cdancy_jenkins_rest_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_Latest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuildNotifierApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BuildNotifierApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/RepoImpl$RepoEventsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/RepoImpl$RepoEventsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/RepoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/RepoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/TravisApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/buildnotifier/Travis/TravisApiImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/buildnotifier/Travis/RepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/buildnotifier/Travis/RepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/buildnotifier/Travis/TravisApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/buildnotifier/Travis/TravisApiImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BuildNotifierApp/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,29 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/buildnotifier/Travis/RepoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/buildnotifier/Travis/TravisApiImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,12 +133,12 @@
         <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/teste.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Program.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/GUI.fxml" />
         <option value="$PROJECT_DIR$/src/sample/JavaFxUI.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/buildnotifier/Travis/RepoImpl.java" />
         <option value="$PROJECT_DIR$/src/sample/buildnotifier/Travis/TravisApiImpl.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
       </list>
     </option>
   </component>
@@ -186,6 +163,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BuildNotifierApp" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BuildNotifierApp" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="BuildNotifierApp" type="58d84e3e:PackageViewProjectNode" />
+              <item name="BuildNotifierApp" type="616d4139:PackageViewModuleNode" />
+              <item name="sample" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,23 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BuildNotifierApp" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BuildNotifierApp" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="BuildNotifierApp" type="58d84e3e:PackageViewProjectNode" />
-              <item name="BuildNotifierApp" type="616d4139:PackageViewModuleNode" />
-              <item name="sample" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,11 +241,11 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552878993054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553572039785" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties&#10;XML" />
     <property name="dynamic.classpath" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jenkins-rest" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.14941406" />
     <property name="project.structure.side.proportion" value="0.3249139" />
@@ -456,7 +433,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14232409" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.32995737" />
       <window_info id="Designer" order="3" />
@@ -466,7 +443,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.28602383" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40195015" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40195015" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -496,6 +473,16 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="listBuilds.get(1)" />
@@ -727,26 +714,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/buildnotifier/Travis/RepoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="333">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -756,8 +726,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/buildnotifier/Travis/TravisApiImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="101">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/google/common/collect/Lists.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding>
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/google/common/io/BaseEncoding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="e#4668#4669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/cdancy/jenkins/rest/JenkinsAuthentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/org/jclouds/apis/internal/BaseApiMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/cdancy/jenkins/rest/JenkinsApiMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/google/inject/internal/ProviderMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/com/cdancy/jenkins/rest/JenkinsClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#2799#2800#0" expanded="true" />
+            <element signature="e#2849#2850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/org/jclouds/json/config/GsonModule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="96" column="57" lean-forward="true" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../jenkins-rest/classes/artifacts/com_cdancy_jenkins_rest_main_jar/com.cdancy.jenkins-rest.main.jar!/org/jclouds/json/internal/DeserializationConstructorAndReflectiveTypeAdapterFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,7 +853,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3249139" />
               </list>
             </option>
           </splitter-proportions>
@@ -797,7 +864,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3249139" />
               </list>
             </option>
           </splitter-proportions>
@@ -809,7 +876,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3249139" />
               </list>
             </option>
           </splitter-proportions>
